@@ -16,7 +16,7 @@ type pedido struct {
 	intens   []item
 }
 
-// funcao com reciver q e opedio
+// funcao com reciver q e opedido
 
 func (p pedido) valorTotal() float64 {
 	total := 0.0
