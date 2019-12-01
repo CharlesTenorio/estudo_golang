@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+type profissao struct {
+	profi string
+}
+
 type endereco struct {
 	cep    string
 	rua    string
@@ -28,4 +32,6 @@ func main() {
 
 	fmt.Println(p.nome, p.bairro)
 	fmt.Println(p2.nome, p2.bairro)
+	fmt.Println(p)
+	fmt.Println(p2)
 }

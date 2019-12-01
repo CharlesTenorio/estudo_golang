@@ -23,5 +23,5 @@ func main() {
 		desconto: 0.05,
 	}
 
-	fmt.Print(produto1)
+	fmt.Print(produto1, produto1.precoDesconto())
 }
